@@ -12,4 +12,6 @@ class Post extends Model
 
     // define column name
     protected $fillable = array('title', 'content', 'status', 'user_id');
+
+    public $timestamps = true;
 }
